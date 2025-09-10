@@ -57,6 +57,12 @@ header{
     font-size: 1rem;
 }
 
+
+
+
+
+/* BANNER */
+
 .banner{
     background-image: url(./assets/imgs/banner.png);
     width: 100%;
@@ -168,4 +174,21 @@ footer{
 
 .rodape{
     font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* MEDIA */
+@media screen and (max-width: 600px){
+    .banner{
+        aspect-ratio: 2.0;
+    }
 }
