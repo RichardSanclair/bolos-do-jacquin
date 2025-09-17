@@ -237,6 +237,31 @@ table svg {
     cursor: pointer;
 }
 
+
+
+/* RODAPE */
+
+footer {
+    background-color: #ffd188;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Julius Sans One", sans-serif;
+}
+
+footer p{
+    font-family: "julius sants one", sans-serif;
+    text-align: center;
+}
+.rodape {
+    font-family: "Julius Sans One", sans-serif;
+    text-align: center;
+}
+
+
+
 /* MEDIA */
 @media screen and (max-width: 768px) {
     table {
@@ -292,25 +317,5 @@ table svg {
     }
 
 
-    /* RODAPE */
-
-    footer {
-        background-color: #ffd188;
-        height: 60px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: "Julius Sans One", sans-serif;
-    }
-
-    footer p{
-        font-family: "julius sants one", sans-serif;
-        text-align: center;
-    }
-    .rodape {
-        font-family: "Julius Sans One", sans-serif;
-        text-align: center;
-    }
 
 }
